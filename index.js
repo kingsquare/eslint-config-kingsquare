@@ -6,6 +6,7 @@ module.exports = {
 		"react/react-in-jsx-scope": [0],
 		"global-require": [0],
 		"comma-dangle": [0],
-		"no-param-reassign": [0]
+		"no-param-reassign": [0],
+		"no-underscore-dangle": [0]
 	}
 };
