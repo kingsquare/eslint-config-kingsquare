@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-kingsquare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "latest"
+  },
+  "author": "Kingsquare BV",
+  "license": "ISC"
+}
