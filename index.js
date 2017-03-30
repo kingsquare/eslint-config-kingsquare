@@ -6,8 +6,8 @@ module.exports = {
 		"react/prefer-stateless-function": [0],
 		"react/react-in-jsx-scope": [0],
 		"global-require": [1],
-		"comma-dangle": [1],
-		"no-param-reassign": [1],
+		"comma-dangle": [0],
+		"no-param-reassign": [0], // e.g. reduce array to object
 		"no-underscore-dangle": [0],
 		"max-len": ["error", 120, {
 			"ignoreTemplateLiterals": true,
