@@ -5,7 +5,7 @@ module.exports = {
 		"react/jsx-filename-extension": [0],
 		"react/prefer-stateless-function": [0],
 		"react/react-in-jsx-scope": [0],
-		"global-require": [1],
+		"global-require": [1], // a warning should be enough
 		"comma-dangle": [0],
 		"no-param-reassign": [0], // e.g. reduce array to object
 		"no-underscore-dangle": [0],
