@@ -13,6 +13,23 @@ module.exports = {
 		"max-len": ["error", 120, {
 			"ignoreTemplateLiterals": true,
 			"ignorePattern": "\\s*<" //jsx hack https://twitter.com/timtyrrell/status/689912501165658112
-		}]
-	}
+		}],
+        'import/extensions': ['error', 'always', {
+            js: 'never',
+            jsx: 'never',
+            ts: 'never',
+            tsx: 'never'
+        }]
+	},
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
+            }
+        },
+        react: {
+            pragma: 'React',
+            version: '16.0'
+        }
+    }
 };
