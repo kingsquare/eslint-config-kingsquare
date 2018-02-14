@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kingsquare",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-reac": "^7.4.0"
+    "eslint-plugin-react": "^7.6.1"
   },
   "author": "Kingsquare BV",
   "license": "ISC"
