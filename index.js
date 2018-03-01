@@ -14,6 +14,10 @@ module.exports = {
 			"ignoreTemplateLiterals": true,
 			"ignorePattern": "\\s*<" //jsx hack https://twitter.com/timtyrrell/status/689912501165658112
 		}],
+        "import/no-extraneous-dependencies": [
+            "error",
+            { "devDependencies": true, "optionalDependencies": true, "peerDependencies": true }
+        ],
         'import/extensions': ['error', 'always', {
             js: 'never',
             jsx: 'never',
