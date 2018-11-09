@@ -1,12 +1,13 @@
 {
   "name": "eslint-config-kingsquare",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1"
   },
   "author": "Kingsquare BV",
