@@ -17,6 +17,15 @@ module.exports = {
     "node": true
   },
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "prefer-arrow-callback": "error",
+    "arrow-body-style": "error",
+    "prefer-promise-reject-errors": "error",
+    "prefer-rest-params": "error"
   }
 };
