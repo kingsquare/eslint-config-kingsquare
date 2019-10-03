@@ -1,20 +1,20 @@
 # eslint-config-kingsquare
 
-This is the basic eslint config used by kingsquare.
+This is the basic eslint config used by Kingsquare BV.
+
+This version extends the [`react-app`](https://github.com/facebook/create-react-app/blob/master/packages/eslint-config-react-app/README.md) standard
 
 To install and use do the following:
 
 ```
-yarn add --dev eslint eslint-config-kingsquare prettier
+yarn add eslint-config-kingsquare --dev
 ```
-also create a .eslintrc.json:
+
+and add the following eslint configuration:
+
 ```json
 {
-  "extends": "kingsquare",
-  "env": {
-    "browser": true,
-    "node": true
-  }
+  "extends": "kingsquare"
 }
 ```
 
