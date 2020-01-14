@@ -1,5 +1,5 @@
 {
-  "name": "@kingsquare/eslint-config",
+  "name": "eslint-config-kingsquare",
   "version": "6.0.0",
   "description": "ESLint configuration used by Kingsquare BV",
   "author": "Kingsquare BV",
