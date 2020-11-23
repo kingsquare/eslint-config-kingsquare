@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kingsquare",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "ESLint configuration used by Kingsquare BV",
   "author": "Kingsquare BV",
   "license": "MIT",
